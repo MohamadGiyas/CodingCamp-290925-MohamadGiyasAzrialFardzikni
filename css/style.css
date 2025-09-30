@@ -197,3 +197,35 @@ li .delete-btn {
 li .delete-btn:hover {
     opacity: 1;
 }
+
+@media (max-width: 600px) {
+    body {
+        padding-top: 20px;
+    }
+
+    .container {
+        padding: 1.5rem;
+    }
+    
+    header h1 {
+        font-size: 1.8rem;
+    }
+
+    #todo-form {
+        flex-direction: column;
+        gap: 0.75rem; 
+    }
+
+    form button {
+        width: 100%;
+    }
+
+    #todo-form, .filter-container {
+        padding: 1rem;
+    }
+
+    li {
+        font-size: 0.9rem;
+        padding: 0.8rem;
+    }
+}
